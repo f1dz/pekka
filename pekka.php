@@ -157,7 +157,9 @@
         <p>
             <label class="judul" for="nm_kelompok">Nama Kelompok PEKKA</label><input type="text" name="nm_kelompok">
         </p>
-        <input type="submit" value="Daftar">
-        <input type="reset" value="Reset">
+        <center>
+            <input type="submit" value="Daftar">
+            <input type="reset" value="Reset">
+        </center>
     </form>
 </fieldset>
