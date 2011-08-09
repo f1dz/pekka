@@ -1,0 +1,79 @@
+/* 
+    Document   : form
+    Created on : Aug 9, 2011, 4:39:32 PM
+    Author     : Ofidz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/* =Form
+------------------------------------------------------------------------------------------------*/
+
+body{
+    font-size: 12px;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+
+form{
+    padding:10px;
+}
+textarea#deskripsi{
+    font-family: "trebuchet ms",arial,verdana;
+    font-size: 12px;
+    width: 61em;
+    height: 10em;
+}
+p label{
+    display:block;
+    float:left;
+    margin-right:10px;
+    text-align:right;
+    width:120px;
+}
+.judul{
+    font-weight: bold;
+}
+p label.radio{
+    float: left;
+    text-align: left;
+    width: 140px;
+    margin-top: 0px;
+}
+form p{
+    margin-bottom:5px;
+    -webkit-margin-before: 0px;
+}
+
+
+.form_field{
+    border:#666 solid 1px;
+}
+
+input.indikator {
+    text-align: right;
+}
+fieldset.pendidikan{
+    width: 500px;
+    margin-bottom: 5px;
+}
+fieldset.form{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+legend {
+    font-weight: bold;
+}
+#daftar label.error { 
+    float: none; 
+    color: red; 
+    padding-left: .5em;
+    margin-left: 130px;
+    vertical-align: top; 
+    text-align: left;
+    width: 300px;
+}
