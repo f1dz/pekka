@@ -1,0 +1,3 @@
+<?
+header('location:pekka.php');
+?>
